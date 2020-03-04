@@ -3,7 +3,7 @@
 $dbhost = "localhost";
 $dbuser = "root";
 $dbpass = "chocolate";
-$db = "hello";
+$db = "test";
 
 $con = mysqli_connect($dbhost, $dbuser, $dbpass) or die("Connection failed: " . mysqli_connect_error());
 
