@@ -39,7 +39,8 @@
           </div>
           <div class = "input-group">
              <label>Email</label>
-             <input type= "text" name="username">
+             <!-- changed name to "email" -->
+             <input type= "text" name="email">
           </div>
           <div class = "input-group">
              <label>Password</label>
@@ -52,7 +53,7 @@
           <div class = "input-group">
              <button type= "submit" name="register" class="btn">Sign Up</button>
           </div>
-          <p> Already a member? <a href="Login.html"> Log In </a> </p>
+          <p> Already a member? <a href="Login.php"> Log In </a> </p>
 
 
         </form>

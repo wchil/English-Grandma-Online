@@ -2,14 +2,14 @@
 
 $dbhost = "localhost";
 $dbuser = "root";
-$dbpass = "chocolate";
-$db = "test";
+$dbpass = "";
+$db = "test_drive";
 
-$con = mysqli_connect($dbhost, $dbuser, $dbpass) or die("Connection failed: " . mysqli_connect_error());
+$con = mysqli_connect($dbhost, $dbuser, $dbpass, $db) or die("Connection failed: " . mysqli_connect_error());
 
-$db = mysqli_select_db($con, $db);
+//$db = mysqli_select_db($con, $db);
 
-echo"success!";
+//echo"success!";
 
 
 
