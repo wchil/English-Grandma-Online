@@ -1,4 +1,4 @@
-<?php include('Server.php'); ?>
+<?php include('Login_process.php'); ?>
 <!DOCTYPE html>
 <html lang="en-US">
 
@@ -41,7 +41,7 @@
           <div class = "input-group">
              <button type= "Submit" name="Login" class="btn">Login</button>
           </div>
-          <p> Not yet a member? <a href="Register.html"> Sign Up </a> </p>
+          <p> Not yet a member? <a href="Register.php"> Sign Up </a> </p>
 
 
         </form>
