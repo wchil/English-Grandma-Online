@@ -1,8 +1,10 @@
-<?php if (count($error) > 0): ?>
+<?php
+
+ if (count($_SESSION["error"])>0): ?>
   <div class="error">
-    <?php foreach ($errors as $error): ?>
-        <p> <?php echo $error; ?> </p>
+    <?php foreach ($_SESSION["error"] as $errors): ?>
+        <p> <?php echo $errors; ?> </p>
       <?php endforeach ?>
   </div>
 
-<?php endif ?>
+<?php endif; ?>

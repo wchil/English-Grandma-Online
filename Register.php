@@ -1,4 +1,4 @@
-<?php include('Server.php'); ?>
+<?php session_start(); include('Server.php'); ?>
 <!DOCTYPE html>
 <html lang="en-US">
 
@@ -28,9 +28,9 @@
             <h2>Sign Up</h2>
         </div>
 <!-- PHP Registration Form-->
-        <form method="post" action="register.php">
+        <form method="post" action="Register.php">
           <!-- Display Validation Errors Here-->
-          <?php include('errors.php'); ?>
+          <?php include('Errors.php'); ?>
 
 
           <div class = "input-group">
@@ -39,7 +39,7 @@
           </div>
           <div class = "input-group">
              <label>Email</label>
-             <input type= "text" name="username">
+             <input type= "text" name="email">
           </div>
           <div class = "input-group">
              <label>Password</label>
